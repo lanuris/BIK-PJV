@@ -1,0 +1,38 @@
+/*# - id in fxml*/
+#drake_BG {
+    -fx-background-color: #ffffff;
+    -fx-background-size: stretch;
+    -fx-background-image: url("endMenuImage.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center;
+    -fx-alignment: center;
+}
+
+
+
+/* . -  styleClass in fxml*/
+.drake_button {
+    -fx-background-color: #d47000;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;
+}
+
+.drake_button:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #d47000;
+    -fx-text-alignment: center;
+}
+
+.drake_button:pressed {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-text-alignment: center;
+}
+
+#drake_title {
+    -fx-text-fill: #d47000;
+}
+
+#drake_title:hover {
+    -fx-text-fill: #ffffff;
+}
