@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane id="drake_BG" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="720.0" stylesheets="@mainScreen.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thedrake.ui.mainGameScreen.MainScreenController">
+
+<!--         <ImageView id="drakelogo" fitHeight="175.0" fitWidth="351.0" layoutX="226.0" pickOnBounds="true" preserveRatio="false">-->
+<!--            <image>-->
+<!--               <Image url="@mainMenuImage.jpg" />-->
+<!--            </image>-->
+<!--         </ImageView>-->
+      <top>
+         <Label id="drake_title" prefHeight="160.0" prefWidth="658.0" text="The Drake" BorderPane.alignment="CENTER">
+            <font>
+               <Font size="40.0" />
+            </font>
+            <BorderPane.margin>
+               <Insets />
+            </BorderPane.margin>
+         </Label>
+      </top>
+   <right>
+         <VBox alignment="CENTER" fillWidth="false" prefHeight="230.0" prefWidth="215.0" spacing="10.0" BorderPane.alignment="CENTER">
+            <children>
+               <Button mnemonicParsing="false" onAction="#localeMultiAction" prefWidth="136.0" styleClass="drake_button" text="Locale Multiplayer" />
+               <Button mnemonicParsing="false" prefWidth="136.0" styleClass="drake_button" text="Single Player " />
+               <Button mnemonicParsing="false" prefWidth="136.0" styleClass="drake_button" text="Online Multiplayer" />
+               <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitAction" prefWidth="136.0" styleClass="drake_button" text="Exit" />
+            </children>
+         </VBox>
+   </right>
+   </BorderPane>
